@@ -1,10 +1,11 @@
-import './style.css';
-
+import React from 'react';
+import {Header,Content,Footer} from './func-component';
 function App() {
   return(
     <>
-      <h2>DeveloperThai.com</h2>
-      <div className='title'>React & React Native</div>
+      <Header/>
+      <Content/>
+      <Footer/>
     </>
   )
 }
